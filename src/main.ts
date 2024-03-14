@@ -1,7 +1,7 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import { appConfig } from './app/app.config';
 import { AppComponent } from './app/app.component';
-import { firebaseConfig } from './environments/environment'
+import { firebaseConfig } from '../src/app/environment'
 import { initializeApp } from "firebase/app";
 
 
