@@ -2,11 +2,13 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { FirebaseService } from '../firebase.service';
+import { CommonModule } from '@angular/common';
+
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule, CommonModule],
   template: `
     <div class="login-container">
       <h2>Login to Your Account</h2>
